@@ -1,4 +1,4 @@
-@import url(c:\Users\inspd\Desktop\Singolo\Singolo\styles\null_style.css);
+@import url(c:\Users\inspd\Desktop\singolo\styles\null_style.css);
 html {
   font-size: 10px;
   font-family: "Lato", "Verdana", sans-serif;
@@ -17,13 +17,13 @@ body {
   border-bottom: 6px solid #323746;
 }
 
-.header .header__wrapper {
+.header .universal__wrapper {
   height: 228px;
   width: 940px;
   margin: 0 auto;
 }
 
-.header .header__wrapper .header__logo {
+.header .universal__wrapper .header__logo {
   height: 25px;
   width: 124px;
   position: absolute;
@@ -38,11 +38,11 @@ body {
   color: #ffffff;
 }
 
-.header .header__wrapper .header__logo span {
+.header .universal__wrapper .header__logo span {
   color: #f06C64;
 }
 
-.header .header__wrapper .header__nav {
+.header .universal__wrapper .header__nav {
   width: 375px;
   height: 14px;
   position: absolute;
@@ -61,12 +61,12 @@ body {
   letter-spacing: -0.035em;
 }
 
-.header .header__wrapper .header__nav .header__button__other {
+.header .universal__wrapper .header__nav .header__button__other {
   color: #ffffff;
   text-decoration: none;
 }
 
-.header .header__wrapper .header__nav .header__button__other::after {
+.header .universal__wrapper .header__nav .header__button__other::after {
   content: ".";
   color: white;
   position: relative;
@@ -74,12 +74,12 @@ body {
   bottom: 3px;
 }
 
-.header .header__wrapper .header__nav .header__button__home {
+.header .universal__wrapper .header__nav .header__button__home {
   color: #f06c64;
   text-decoration: none;
 }
 
-.header .header__wrapper .header__nav .header__button__home::after {
+.header .universal__wrapper .header__nav .header__button__home::after {
   content: ".";
   color: white;
   position: relative;
@@ -87,8 +87,57 @@ body {
   bottom: 3px;
 }
 
-.header .header__wrapper .header__nav .header__button__last {
+.header .universal__wrapper .header__nav .header__button__last {
   color: #ffffff;
   text-decoration: none;
+}
+
+.slider {
+  display: block;
+  height: 600px;
+  left: 0px;
+  top: 95px;
+  background-color: #f06c64;
+  border-bottom: 6px solid #ea676b;
+}
+
+.slider .slider__content {
+  height: 483px;
+  width: 796.0001220703125px;
+  left: 111.9998779296875px;
+  top: 149px;
+  border-radius: 0px;
+}
+
+.slider img {
+  position: relative;
+  top: 54px;
+  right: 112px;
+  bottom: 57px;
+  left: 112px;
+}
+
+.slider .slider__controls {
+  height: 27px;
+  width: 940px;
+  left: 40px;
+  top: 378px;
+  border-radius: 3px;
+}
+
+.slider .slider__controls .left {
+  position: absolute;
+  top: 378px;
+  right: 964px;
+  bottom: 284px;
+  left: 40px;
+}
+
+.slider .slider__controls .right {
+  position: absolute;
+  top: 378px;
+  right: 40px;
+  bottom: 284px;
+  left: 964px;
 }
 /*# sourceMappingURL=style.css.map */
