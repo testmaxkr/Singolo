@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url(c:\Users\inspd\Desktop\singolo\styles\null_style.css);
 html {
   font-size: 10px;
@@ -20,11 +21,14 @@ body {
 .universal__wrapper__block {
   height: 228px;
   width: 940px;
-  margin: 0 auto;
 }
 
 .header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   height: 89px;
+  z-index: 2;
   background-color: #2D303A;
   border-bottom: 6px solid #323746;
 }
@@ -77,7 +81,7 @@ body {
   content: ".";
   color: white;
   position: relative;
-  left: 0.8em;
+  left: 14px;
   bottom: 3px;
 }
 
@@ -90,7 +94,7 @@ body {
   content: ".";
   color: white;
   position: relative;
-  left: 0.8em;
+  left: 14px;
   bottom: 3px;
 }
 
@@ -104,6 +108,7 @@ body {
   height: 600px;
   left: 0px;
   top: 95px;
+  z-index: 1;
   background-color: #f06c64;
   border-bottom: 6px solid #ea676b;
 }
@@ -148,22 +153,117 @@ body {
   left: 964px;
 }
 
-.services {
-  position: absolute;
-  height: 494px;
-  width: 1020px;
-  left: 0px;
-  top: 695px;
-  border-radius: 0px;
-  background-color: #f2f2f2;
+.service {
   display: block;
+  height: 494px;
+  background-color: #f2f2f2;
+  border-bottom: 6px solid #ffffff;
+  position: relative;
 }
 
-.services .services__header {
+.service .service__header {
+  position: static;
   height: 101px;
   width: 936px;
+  top: 59px;
+  right: 44px;
+  bottom: 334px;
   left: 40px;
-  top: 754px;
-  border-radius: nullpx;
+}
+
+.service .service__header h2 {
+  position: relative;
+  top: 59px;
+  right: 809px;
+  bottom: 399px;
+  left: 40px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #666D89;
+}
+
+.service .service__header p {
+  position: absolute;
+  top: 113px;
+  right: 44px;
+  bottom: 334px;
+  left: 40px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767E9E;
+}
+
+.service .service__cells {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  height: 228px;
+  width: 940px;
+  left: 40px;
+  right: 46px;
+  bottom: 40px;
+  top: 220px;
+  border-radius: 0px;
+  border: 1px solid red;
+  /* удалить */
+}
+
+.service .service__cells .service__items1,
+.service .service__cells .service__items2,
+.service .service__cells .service__items3,
+.service .service__cells .service__items4,
+.service .service__cells .service__items5,
+.service .service__cells .service__items6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+  border: 1px solid green;
+  /* удалить */
+  width: 300px;
+  height: 104px;
+}
+
+.service .service__cells .service__icon1,
+.service .service__cells .service__icon2,
+.service .service__cells .service__icon3,
+.service .service__cells .service__icon4,
+.service .service__cells .service__icon5,
+.service .service__cells .service__icon6 {
+  position: inherit;
+  width: 60px;
+  height: 60px;
+}
+
+.service .service__cells .service__text1,
+.service .service__cells .service__text2,
+.service .service__cells .service__text3,
+.service .service__cells .service__text4,
+.service .service__cells .service__text5,
+.service .service__cells .service__text6 {
+  display: block;
+  width: 220px;
+  height: 77px;
+  border: 1px solid red;
+  text-align: left;
 }
 /*# sourceMappingURL=style.css.map */
