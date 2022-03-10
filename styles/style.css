@@ -217,12 +217,7 @@ body {
   border-radius: 0px;
 }
 
-.service .service__cells .service__items1,
-.service .service__cells .service__items2,
-.service .service__cells .service__items3,
-.service .service__cells .service__items4,
-.service .service__cells .service__items5,
-.service .service__cells .service__items6 {
+.service .service__cells .service__items {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -238,35 +233,20 @@ body {
   height: 104px;
 }
 
-.service .service__cells .service__icon1,
-.service .service__cells .service__icon2,
-.service .service__cells .service__icon3,
-.service .service__cells .service__icon4,
-.service .service__cells .service__icon5,
-.service .service__cells .service__icon6 {
+.service .service__cells .service__icon {
   position: inherit;
   width: 60px;
   height: 60px;
 }
 
-.service .service__cells .service__text1,
-.service .service__cells .service__text2,
-.service .service__cells .service__text3,
-.service .service__cells .service__text4,
-.service .service__cells .service__text5,
-.service .service__cells .service__text6 {
+.service .service__cells .service__text {
   display: block;
   width: 220px;
   height: 77px;
   text-align: left;
 }
 
-.service .service__cells .service__text1 h3,
-.service .service__cells .service__text2 h3,
-.service .service__cells .service__text3 h3,
-.service .service__cells .service__text4 h3,
-.service .service__cells .service__text5 h3,
-.service .service__cells .service__text6 h3 {
+.service .service__cells .service__text h3 {
   margin-bottom: 7px;
   height: 20px;
   font-family: Lato;
@@ -277,16 +257,9 @@ body {
   color: #666D89;
 }
 
-.service .service__cells .service__text1 p,
-.service .service__cells .service__text2 p,
-.service .service__cells .service__text3 p,
-.service .service__cells .service__text4 p,
-.service .service__cells .service__text5 p,
-.service .service__cells .service__text6 p {
+.service .service__cells .service__text p {
   width: 220px;
   height: 77px;
-  font-family: Lato;
-  font-style: normal;
   font-weight: normal;
   font-size: 12px;
   line-height: 22px;

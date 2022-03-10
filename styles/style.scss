@@ -202,12 +202,7 @@ body{
     bottom:40px ;
     top: 220px;
     border-radius: 0px;
-.service__items1,
-.service__items2,
-.service__items3,
-.service__items4,
-.service__items5,
-.service__items6{
+.service__items{
     display: flex;
     position: relative;
     justify-content:space-between;
@@ -215,22 +210,12 @@ body{
     width: 300px;
     height: 104px
 }
-.service__icon1,
-.service__icon2,
-.service__icon3,
-.service__icon4,
-.service__icon5,
-.service__icon6,{
+.service__icon{
     position: inherit;
     width:60px;
     height:60px;
 }
-.service__text1,
-.service__text2,
-.service__text3,
-.service__text4,
-.service__text5,
-.service__text6{
+.service__text{
     display: block;
     width:220px;
     height:77px;
@@ -248,8 +233,6 @@ h3{
 p{
     width: 220px;
     height: 77px;
-    font-family: Lato;
-    font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 22px;
@@ -258,4 +241,4 @@ p{
     }
 }
 }
-}
+} 
