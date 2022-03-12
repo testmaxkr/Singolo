@@ -1,4 +1,4 @@
-@import url(c:\Users\inspd\Desktop\singolo\styles\null_style.css);
+@import url(c:\Users\InspD\Desktop\singolo\styles\null_style.css);
 html {
   font-size: 10px;
   font-family: "Lato", "Verdana", sans-serif;
@@ -265,5 +265,102 @@ body {
   line-height: 22px;
   text-align: justify;
   color: #767E9E;
+}
+
+.portfolio {
+  display: block;
+  height: 864px;
+  background-color: #2D303A;
+  border-bottom: 6px solid  #323746;
+  position: relative;
+}
+
+.portfolio .portfolio__header {
+  position: inherit;
+  height: 100.82px;
+  width: 936px;
+  left: 40px;
+  top: 59px;
+  right: 44px;
+  bottom: 704.18px;
+}
+
+.portfolio .portfolio__header h2 {
+  display: block;
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  top: 59px;
+  right: 850px;
+  left: 40px;
+  bottom: 765px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 36px;
+  color: #666D89;
+}
+
+.portfolio .portfolio__header p {
+  display: block;
+  position: absolute;
+  width: 936px;
+  height: 46.95px;
+  top: 112.87px;
+  right: 44px;
+  bottom: 704.18px;
+  left: 40px;
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 30px;
+  color: #767E9E;
+}
+
+.portfolio .portfolio__button {
+  position: absolute;
+  width: 290px;
+  height: 22px;
+  top: 155px;
+  right: 690px;
+  bottom: 687px;
+  left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.portfolio .button__item, .portfolio .button__item1 {
+  border: 1px solid #767e9e;
+  border-radius: 5px;
+  padding: 6px;
+  margin-right: 6px;
+  color: #767E9E;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+}
+
+.portfolio .button__item1 {
+  color: #DEDEDE;
+  border-color: #BBBBBB;
+}
+
+.portfolio .grid {
+  display: block;
+  position: absolute;
+  height: 601px;
+  width: 940px;
+  top: 195px;
+  right: 40px;
+  bottom: 68px;
+  left: 40px;
+  border: 1px solid red;
 }
 /*# sourceMappingURL=style.css.map */
