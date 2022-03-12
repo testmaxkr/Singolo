@@ -320,19 +320,18 @@ p{
     border-color: #BBBBBB;
 }
 .grid {
-    display: block;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     position: absolute;
     height: 601px;
     width: 940px;
-  
     top: 195px;
     right: 40px;
     bottom: 68px;
     left: 40px;
-
-
-    border: 1px solid red;
 }
+
 
 }
 
