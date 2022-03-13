@@ -1,1 +1,1 @@
-[singolo] (https://testmaxkr.github.io/singolo/index.html)
+[singolo] (https://github.com/testmaxkr/singolo/blob/master/index.html)
