@@ -1,1 +1,3 @@
-[singolo] ('https://github.com/testmaxkr/singolo.git')
+[singolo] (https://testmaxkr.github.io/singolo/)
+
+
