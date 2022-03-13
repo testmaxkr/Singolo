@@ -1,3 +1,3 @@
-http://testmaxkr.github.io/singolo/
+[singolo]:http://testmaxkr.github.io/singolo/
 
 
