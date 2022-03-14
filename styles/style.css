@@ -177,7 +177,8 @@ body {
 }
 
 .service .service__header h2 {
-  display: block;
+  display: -ms-grid;
+  display: grid;
   position: absolute;
   top: 59px;
   right: 809px;
@@ -196,7 +197,8 @@ body {
 }
 
 .service .service__header p {
-  display: inherit;
+  display: -ms-grid;
+  display: grid;
   position: absolute;
   width: 936px;
   height: 47px;

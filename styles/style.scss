@@ -172,7 +172,7 @@ body{
     bottom: 334px; 
     left: 40px;
 & h2{
-    display:block;
+    display:grid;
     position: absolute;
     top: 59px;
     right: 809px;
@@ -190,7 +190,7 @@ body{
     margin-bottom: 18px;
 }  
 & p{
-    display: inherit;
+    display: grid;
     position: absolute;
     width: 936px;
     height: 47px;
