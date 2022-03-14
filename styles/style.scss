@@ -1,15 +1,22 @@
 @import "null_style.css";
 
+
 html {
     font-size: 10px;
     font-family: "Lato", "Verdana", sans-serif;
     font-style: normal;
     font-weight: bold;
+    scroll-behavior: smooth;
 }
-
+// @media screen {
+//     min-width:1600px;
+// }
 body{
     box-sizing: border-box;
+    min-width: 1600px;
 }
+
+
 
 .universal_wrapper{
     max-width: 1020px;
