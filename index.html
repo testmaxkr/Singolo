@@ -9,19 +9,19 @@
     <link rel="stylesheet" href="/styles/fonts.css">
     <title>Singolo project</title>
 </head>
-<body> 
+<body id="home"> 
     <header class="header"> 
         <div class="universal_wrapper">
             <div class="universal__wrapper__block">
-                <h1 class="header__logo">SINGOLO<span>*</span></h1>
+                <a href="./index.html"><h1 class="header__logo">SINGOLO<span>*</span></h1></a>
                 <nav class="header__nav">
-                    <a href="#" class="header__button__home">HOME</a>
-                    <a href="#" class="header__button__other">SERVICES</a>
-                    <a href="#" class="header__button__other">PORTFOLIO</a>
-                    <a href="#" class="header__button__other">ABOUT</a>
-                    <a href="#" class="header__button__last">CONTACT</a>
+                    <a href="#home" class="header__button__home">HOME</a>
+                    <a href="#ser" class="header__button__other">SERVICES</a>
+                    <a href="#port" class="header__button__other">PORTFOLIO</a>
+                    <a href="https://github.com/testmaxkr" class="header__button__other">ABOUT</a>
+                    <a href="#contact" class="header__button__last">CONTACT</a>
                 </nav>
-                </div>
+            </div>
         </div>
     </header>
     <slider class="slider"> 
@@ -35,7 +35,7 @@
             </div>
         </div>
     </slider>
-    <service class="service">
+    <service class="service" id="ser">
         <div class="universal_wrapper"> 
             <div class="universal__wrapper__block">
                 <div class="service__header">
@@ -43,7 +43,7 @@
                     <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum. Duis mollis, non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
                 </div> 
                 <div class="service__cells">
-                    <div class="service__items">
+                    <div class="service__items">      
                         <div class="service__text">
                             <h3>Custom Design</h3>
                             <p>Curabitur vestibulum eget mauris quis laoreet. Phasellus in quam laoreet, viverra lacus ut, ultrices velit.</p>
@@ -101,7 +101,7 @@
             </div>
         </div>   
     </service>
-    <portfolio class="portfolio">
+    <portfolio class="portfolio" id="port">
         <div class="universal_wrapper"> 
             <div class="universal__wrapper__block">
                 <div class="portfolio__header">
@@ -131,7 +131,7 @@
             </div>
         </div>
     </portfolio>
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <div class="universal_wrapper">
             <div class="universal__wrapper__block">
                 <div class="footer__buttoms__icons"> 
