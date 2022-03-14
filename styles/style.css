@@ -191,6 +191,8 @@ body {
   font-size: 30px;
   line-height: 36px;
   color: #666D89;
+  text-align: left;
+  margin-bottom: 18px;
 }
 
 .service .service__header p {
