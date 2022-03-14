@@ -168,7 +168,7 @@ body {
   -ms-grid-rows: 1fr 1fr;
       grid-template-rows: 1fr 1fr;
   position: inherit;
-  height: 101px;
+  height: 173px;
   width: 936px;
   top: 59px;
   right: 44px;
@@ -177,7 +177,7 @@ body {
 }
 
 .service .service__header h2 {
-  display: inherit;
+  display: block;
   position: absolute;
   top: 59px;
   right: 809px;

@@ -165,14 +165,14 @@ body{
     display: grid;
     grid-template-rows: 1fr 1fr;
     position: inherit;
-    height: 101px;
+    height: 173px;
     width: 936px;
     top: 59px; 
     right: 44px; 
     bottom: 334px; 
     left: 40px;
 & h2{
-    display:inherit;
+    display:block;
     position: absolute;
     top: 59px;
     right: 809px;
