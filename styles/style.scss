@@ -18,7 +18,8 @@ body{
 }
 
 .universal__wrapper__block{
-    width: 940px;    
+    width: 940px;
+    margin:0 auto;    
 }
 
 .header{ 
@@ -72,7 +73,7 @@ body{
     content: ".";
     color: white;
     position: relative;
-    left: 14px;
+    left: 10px;
     bottom: 3px;
     }
 }
@@ -85,7 +86,7 @@ body{
     content: ".";
     color: white;
     position: relative;
-    left: 14px;
+    left: 10px;
     bottom: 3px;
     }
 }
@@ -148,13 +149,15 @@ body{
 
 .service{
     display: block;
+    position: relative;
     height: 494px;
     background-color:#f2f2f2;
     border-bottom: 6px solid #ffffff;
-    position: relative;
 
 .service__header{
-    position: static;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    position: inherit;
     height: 101px;
     width: 936px;
     top: 59px; 
@@ -162,11 +165,14 @@ body{
     bottom: 334px; 
     left: 40px;
 & h2{
-    position: relative;
+    display:inherit;
+    position: absolute;
     top: 59px;
     right: 809px;
     bottom: 399px;
     left: 40px;
+    height: 36px;
+    width: 171px;
     font-family: Lato;
     font-style: normal;
     font-weight: 900;
@@ -175,31 +181,38 @@ body{
     color: #666D89;
 }  
 & p{
+    display: inherit;
     position: absolute;
+    width: 936px;
+    height: 47px;
+    left: 40px;
     top: 113px;
     right: 44px;
     bottom: 334px;
-    left: 40px;
-    font-family: Lato;
+    font-family: 'Lato';
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
     color: #767E9E;
+    text-align: justify;
+    
 }  
 }
 .service__cells{
     display: flex;
     justify-content:space-between;
     flex-wrap: wrap;
+    align-content: space-between;
     position: absolute;
     height: 228px;
     width: 940px;
     left: 40px;
-    right:46px ;
-    bottom:40px ;
+    right:40px ;
+    bottom:46px ;
     top: 220px;
     border-radius: 0px;
+    margin-bottom: 46px;
 .service__items{
     display: flex;
     position: relative;
@@ -252,7 +265,6 @@ p{
     position: inherit;
     height: 100.82px;
     width: 936px;
-
     left: 40px;
     top: 59px;
     right: 44px;
@@ -262,7 +274,6 @@ p{
     position: absolute;
     width: 130px;
     height: 40px;
-
     top: 59px;
     right:850px;
     left: 40px;
@@ -271,6 +282,8 @@ p{
     font-size: 30px;
     line-height: 36px;
     color: #666D89;
+    font-family: 'Lato';
+    font-style: normal;
 }
 & p{   
     display: block; 
@@ -305,7 +318,7 @@ p{
 .button__item,.button__item1{
     border: 1px solid #767e9e;
     border-radius: 5px;
-    padding: 6px;
+    padding: 3px;
     margin-right: 6px;
     color: #767E9E;
     font-weight: 400;
@@ -318,8 +331,10 @@ p{
 }
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 220px 220px 220px 220px;
+    grid-template-rows: 187px 187px 187px;
+    justify-content: space-between;
+    align-content: space-between;
     position: absolute;
     height: 601px;
     width: 940px;
@@ -334,7 +349,7 @@ p{
     background-color: #2D303A;
     height: 76px;
 .footer__buttoms__icons{
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -343,7 +358,7 @@ p{
     top: 22px;
     right: 42px;
     bottom: 22px;
-    left: 814px;
+    left: 826px;
 & img{
     width: 32px;
     height: 32px;
@@ -351,7 +366,7 @@ p{
 }
 .copyright{
     position: absolute;
-    width: 118px;
+    width: 130px;
     height: 17px;
     top: 30px;
     right: 862px;
