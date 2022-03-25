@@ -1,0 +1,108 @@
+// tablet 769px
+@media (max-width:768px) {
+
+.universal__wrapper{
+    max-width:768px;
+}    
+.universal__wrapper__block{
+    max-width: 687px;
+}    
+
+.header{
+    height: 89px;
+    width: 768px;
+    left: 1px;
+.header__logo{
+    width: 160px;
+    right: 568px;
+    left: 40px;
+}
+.header__nav{
+    width: 434px;
+    height: 14px;
+    right: 40px;
+    top: 39px;
+    bottom: 36px;
+    left: 290px;
+    .header__button__other{
+    &::after{
+        left: 15px;
+        }
+    } 
+    .header__button__home{  
+    &::after{
+        left: 15px;
+        }
+    }
+}
+}
+
+.slider{
+    width: 768px;
+    height: 451.76px;
+    left: 2px;
+.slider__content{
+    height: 363.73px;
+    width: 599.48px;
+    left: 83.18px;
+    top: 40.59px; 
+}    
+.slider__controls{
+    height: 28.30px;
+    width: 711.71px;
+    left: 28.41px;
+    top: 211.50px;
+    right: 26.86px;
+    bottom:207.05px;
+.left{
+    left: 29.42px;
+    top: 211.50px;
+    border-radius: 3px;    
+}
+.right{
+    left: 724.13px;
+    top: 211.50px;
+    right: 26.86px;
+    bottom: 207.05px;
+    border-radius: 3px;
+}    
+}    
+}
+
+.service{
+    width: 768px;
+    height: 635px;
+    top: 586px;
+    right: 41px;
+    bottom: 1242px;
+    left: 42px;
+    position: initial;
+.service__header{
+& p{
+    width: 687px;
+}
+}
+.service__cells{
+    margin-top: 28px;
+    width: 681px;
+    height: 339px;
+}
+}
+
+.portfolio{
+    width: 768px;
+    height: 1094px;
+.grid{
+    height: 793.99px;
+    width: 688.85px;
+    bottom: 65.4px;
+    top: 195px;
+    grid-template-columns: 220px 220px 220px;
+    grid-template-rows: 187px 187px 187px 187px;
+& img{
+    width: 216px;
+    height: 183px;
+}   
+}
+}
+}

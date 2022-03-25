@@ -1,24 +1,17 @@
 @import "null_style.css";
 
-
 html {
     font-size: 10px;
     font-family: "Lato", "Verdana", sans-serif;
     font-style: normal;
     font-weight: bold;
     scroll-behavior: smooth;
-    min-height: 2065px;
 }
-// @media screen {
-//     min-width:1600px;
-// }
+
 body{
     box-sizing: border-box;
-    min-width: 1600px;
     min-height: 2065px;
 }
-
-
 
 .universal_wrapper{
     max-width: 1020px;
@@ -38,8 +31,6 @@ body{
     z-index: 2;
     background-color:#2D303A;
     border-bottom: 6px solid #323746;
-    
-    
 .header__logo{
     height: 25px;
     width: 124px;
@@ -52,13 +43,11 @@ body{
     line-height: 30px;
     letter-spacing: -0.03em;
     text-align: left;
-    color: #ffffff;
-    
+    color: #ffffff; 
 & span{
     color: #f06C64;
     }
 }
-
 .header__nav{
     width: 375px;
     height: 14px;
@@ -72,12 +61,10 @@ body{
     font-size: 12px;
     line-height: 14px;
     text-align: right;
-    letter-spacing: -0.035em;
-    
+    letter-spacing: -0.035em; 
 .header__button__other{
     color: #ffffff;
     text-decoration: none;
-
 &::after{
     content: ".";
     color: white;
@@ -85,12 +72,10 @@ body{
     left: 10px;
     bottom: 3px;
     }
-}
-    
+} 
 .header__button__home{
     color: #f06c64;
     text-decoration:none;    
-
 &::after{
     content: ".";
     color: white;
@@ -99,7 +84,6 @@ body{
     bottom: 3px;
     }
 }
-
 .header__button__last{
     color: #ffffff;
     text-decoration: none;
@@ -109,30 +93,23 @@ body{
 
 .slider {
     display: block;
-    height: 600px;
+    top: 95px;
+    height: 594px;
     left: 0px;
     top: 95px;
     z-index: 1;
     background-color: #f06c64;
     border-bottom: 6px solid #ea676b;
-    
-    
-.slider__content{  
+.slider__content{
+    position: absolute;  
     height: 483px;
-    width: 796.0001220703125px;
-    left: 111.9998779296875px;
-    top: 149px;
+    width: 796px;
+    left: 112px;
+    top: 54px;
+    right: 112px;
+    bottom: 57px;
     border-radius: 0px;    
 }  
-
-& img{
-    position: relative;
-    top:54px;
-    right:112px;
-    bottom:57px;
-    left:112px;
-}    
-
 .slider__controls{
     height: 27px;
     width: 940px;
@@ -141,6 +118,8 @@ body{
     border-radius: 3px;
 .left{
     position: absolute;
+    width: 16px;
+    height: 27px;
     top: 283px;
     right: 964px;
     bottom: 284px;
@@ -148,6 +127,8 @@ body{
 }
 .right{
     position: absolute;
+    width: 16px;
+    height: 27px;
     top: 283px;
     right: 40px;
     bottom: 284px;
@@ -162,7 +143,6 @@ body{
     height: 494px;
     background-color:#f2f2f2;
     border-bottom: 6px solid #ffffff;
-
 .service__header{
     display: grid;
     grid-template-rows: 1fr 1fr;
@@ -271,7 +251,6 @@ p{
     background-color:#2D303A;;
     border-bottom: 6px solid  #323746;
     position: relative;
-
 .portfolio__header{
     position: inherit;
     height: 100.82px;
@@ -313,7 +292,6 @@ p{
     color: #767E9E;
 }
 }
-
 .portfolio__button{ 
     position: absolute;
     width:290px;

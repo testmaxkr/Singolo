@@ -5,13 +5,11 @@ html {
   font-style: normal;
   font-weight: bold;
   scroll-behavior: smooth;
-  min-height: 2065px;
 }
 
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  min-width: 1600px;
   min-height: 2065px;
 }
 
@@ -108,7 +106,8 @@ body {
 
 .slider {
   display: block;
-  height: 600px;
+  top: 95px;
+  height: 594px;
   left: 0px;
   top: 95px;
   z-index: 1;
@@ -117,19 +116,14 @@ body {
 }
 
 .slider .slider__content {
+  position: absolute;
   height: 483px;
-  width: 796.0001220703125px;
-  left: 111.9998779296875px;
-  top: 149px;
-  border-radius: 0px;
-}
-
-.slider img {
-  position: relative;
+  width: 796px;
+  left: 112px;
   top: 54px;
   right: 112px;
   bottom: 57px;
-  left: 112px;
+  border-radius: 0px;
 }
 
 .slider .slider__controls {
@@ -142,6 +136,8 @@ body {
 
 .slider .slider__controls .left {
   position: absolute;
+  width: 16px;
+  height: 27px;
   top: 283px;
   right: 964px;
   bottom: 284px;
@@ -150,6 +146,8 @@ body {
 
 .slider .slider__controls .right {
   position: absolute;
+  width: 16px;
+  height: 27px;
   top: 283px;
   right: 40px;
   bottom: 284px;
