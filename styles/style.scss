@@ -1,14 +1,12 @@
 @import "null_style.css";
 
-html {
+body{
     font-size: 10px;
-    font-family: "Lato", "Verdana", sans-serif;
+    font-family: "Lato";
+    font-family: "Verdana", sans-serif;
     font-style: normal;
     font-weight: bold;
     scroll-behavior: smooth;
-}
-
-body{
     box-sizing: border-box;
     min-height: 2065px;
 }
@@ -31,6 +29,12 @@ body{
     z-index: 2;
     background-color:#2D303A;
     border-bottom: 6px solid #323746;
+#menu__toggle {
+    opacity: 0;
+      }    
+.menu__box{
+    opacity: 0;
+}      
 .header__logo{
     height: 25px;
     width: 124px;
@@ -368,3 +372,4 @@ p{
 }
 }
 
+/* скрываем чекбокс */
